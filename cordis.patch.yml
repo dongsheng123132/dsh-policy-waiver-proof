@@ -1,0 +1,5 @@
+- insert:
+    - id: dsh-policy-waiver-proof
+      name: dsh-policy-waiver-proof
+      config:
+        workspaceRoot: .

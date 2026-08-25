@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "proofId": "waiver-proof-20260826",
+  "evaluationTime": "2026-08-26T06:00:00.000Z",
+  "waiver": {
+    "subjectHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "targetRevision": "revision-42",
+    "baselinePolicySha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "requestSha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "approvalSha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "scopeSha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+    "approvedAt": "2026-08-26T03:00:00.000Z",
+    "validFrom": "2026-08-26T03:30:00.000Z",
+    "validUntil": "2026-08-26T07:00:00.000Z",
+    "maxUses": 2,
+    "status": "active",
+    "allowedActionHashes": [
+      "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+    ]
+  },
+  "policy": {
+    "maxEvidenceAgeMs": 14400000,
+    "requireMonotonicSequence": true,
+    "requiredCompensatingControlHashes": [
+      "1111111111111111111111111111111111111111111111111111111111111111",
+      "2222222222222222222222222222222222222222222222222222222222222222"
+    ]
+  },
+  "compensatingControls": [
+    {
+      "id": "control-monitoring",
+      "controlHash": "1111111111111111111111111111111111111111111111111111111111111111",
+      "sourceSha256": "3333333333333333333333333333333333333333333333333333333333333333",
+      "status": "effective",
+      "observedAt": "2026-08-26T05:00:00.000Z"
+    },
+    {
+      "id": "control-rate-limit",
+      "controlHash": "2222222222222222222222222222222222222222222222222222222222222222",
+      "sourceSha256": "4444444444444444444444444444444444444444444444444444444444444444",
+      "status": "effective",
+      "observedAt": "2026-08-26T05:00:00.000Z"
+    }
+  ],
+  "uses": [
+    {
+      "id": "use-001",
+      "sequence": 1,
+      "actionSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "scopeSha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "subjectHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "receiptSha256": "5555555555555555555555555555555555555555555555555555555555555555",
+      "targetRevision": "revision-42",
+      "result": "used",
+      "occurredAt": "2026-08-26T04:00:00.000Z"
+    },
+    {
+      "id": "use-002",
+      "sequence": 2,
+      "actionSha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "scopeSha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "subjectHash": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "receiptSha256": "6666666666666666666666666666666666666666666666666666666666666666",
+      "targetRevision": "revision-42",
+      "result": "used",
+      "occurredAt": "2026-08-26T05:00:00.000Z"
+    }
+  ]
+}

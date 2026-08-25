@@ -1,0 +1,22 @@
+{
+  "name": "dsh-policy-waiver-proof",
+  "version": "0.1.0",
+  "description": "Content-addressed proof that a temporary policy waiver stayed within approved bounds",
+  "author": {
+    "name": "dongsheng123132"
+  },
+  "homepage": "https://github.com/dongsheng123132/dsh-policy-waiver-proof",
+  "repository": "https://github.com/dongsheng123132/dsh-policy-waiver-proof",
+  "license": "MIT",
+  "keywords": ["deepseek-harness", "dsh", "policy", "waiver", "evidence"],
+  "interface": {
+    "displayName": "DSH Policy Waiver Proof",
+    "shortDescription": "Verify bounded temporary policy exceptions.",
+    "longDescription": "Verifies explicit offline receipts for policy-waiver scope, lifetime, usage limits, compensating controls, revocation and closure without allowing actions or changing policy.",
+    "developerName": "dongsheng123132",
+    "category": "Developer Tools",
+    "capabilities": ["MCP tools", "DSH tools", "offline verification"],
+    "defaultPrompt": "Verify this explicit policy-waiver manifest and report only hashed containment evidence."
+  },
+  "mcpServers": "./.mcp.json"
+}
