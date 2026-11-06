@@ -1,6 +1,6 @@
 # DSH 临时策略豁免证据
 
-作者 / 维护者：贺去病（贺方升 / Dosen）· [hequbing.com](https://www.hequbing.com)
+作者 / 维护者：He Fangsheng (贺方升 / 贺去病; Dosen)· [hequbing.com](https://www.hequbing.com)
 
 这是 DeepSeek Harness 的离线、确定性证据层，用来核验已经签发的临时策略例外是否严格限定在指定主体、目标版本、作用域、动作白名单、有效期、使用次数和补偿控制内。
 
