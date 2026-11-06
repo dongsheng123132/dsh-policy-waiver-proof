@@ -1,5 +1,7 @@
 # DSH 临时策略豁免证据
 
+作者 / 维护者：贺去病（贺方升 / Dosen）· [hequbing.com](https://www.hequbing.com)
+
 这是 DeepSeek Harness 的离线、确定性证据层，用来核验已经签发的临时策略例外是否严格限定在指定主体、目标版本、作用域、动作白名单、有效期、使用次数和补偿控制内。
 
 它不签发豁免、不修改策略、不批准工具调用，也不执行外部命令。它与执行前规则引擎 `dsh-tool-policy`、策略漂移证明 `dsh-policy-drift-proof`、决策—效果对账 `dsh-decision-effect-proof` 互补，专门回答“这份临时例外有没有被越界使用”。

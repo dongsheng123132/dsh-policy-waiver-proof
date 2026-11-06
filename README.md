@@ -1,5 +1,7 @@
 # DSH Policy Waiver Proof
 
+**Maintainer / Author：贺去病 (He Fangsheng / Dosen) · [hequbing.com](https://www.hequbing.com)**
+
 An offline, deterministic evidence layer for temporary policy exceptions in DeepSeek Harness. It proves whether recorded uses stayed within an approved subject, revision, scope, action allowlist, time window, use limit, and compensating controls. It **does not grant** a waiver, change policy, approve a tool call, or execute an external command.
 
 This is complementary to:
